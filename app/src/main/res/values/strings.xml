@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Uzman Öğretmenlik</string>
+    <string name="card_button_title">Başla</string>
+    <string name="correct_count">%s Doğru</string>
+    <string name="wrong_count">%s Yanlış</string>
+    <string name="success_percentage">Başarı Yüzdesi\n%%%d</string>
+    <string name="continue_to_solve">Çözmeye Devam Et</string>
+    <string name="back_to_home">Anasayfaya Dön</string>
+    <string name="results">Sonuçlar</string>
+    <string name="time_left_to_exam">⌛ Sınava Kalan Süre</string>
+    <string name="statistic">📊 İstatistik</string>
+    <string name="statistic_description">Bütün testlerdeki istatistikleriniz burada görüntülenir. Sonuçlarınızın buraya yansıması için başladığınız testi bitiriniz.</string>
+    <string name="total_correct_count">Doğru Sayısı</string>
+    <string name="total_wrong_count">Yanlış Sayısı</string>
+    <string name="total_success_percentage">Başarı Yüzdesi</string>
+    <string name="solve_test">🖊️ Soru Çöz</string>
+    <string name="solve_test_description">Sağa kaydırarak istediğiniz şeklide soru çözebilirsiniz.</string>
+    <string name="tests_by_topics_card_title">Konulara Göre</string>
+    <string name="tests_by_topics_card_description">Konu listesini görüntüleyin ve istediğiniz konuya göre çözmeye başlayın.</string>
+    <string name="random_tests_card_title">Karma Test</string>
+    <string name="random_tests_card_description">Uygulama içindeki bütün sorulardan rastgele sorular seçilir. Soru sayısını ayarlardan değiştirebilirsiniz.</string>
+    <string name="trial_exams_card_title">Deneme Sınavları</string>
+    <string name="trial_exams_card_description">20 Soruluk deneme sınavlarıyla durumunuzu analiz edin.</string>
+    <string name="good_luck">😀 Başarılar 😃</string>
+    <string name="countdown_text">%s Gün %s Saat %s Dakika %s Saniye</string>
+    <string name="preparing_questions">Sorular hazırlanıyor…</string>
+    <string name="exam_exact_date">Sınav Tarihi : %s</string>
+    <string name="home">Anasayfa</string>
+    <string name="cancel_the_test">Testi İptal Et</string>
+    <string name="yes">Evet</string>
+    <string name="cancel_the_test_confirmation">Cevaplarınız kaybolacak, emin misiniz?</string>
+    <string name="topics">Konular</string>
+</resources>

@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Uygulama">
+
+        <ListPreference
+            app:defaultValue="10"
+            app:entries="@array/question_count_entries"
+            app:entryValues="@array/question_count_entries"
+            app:icon="@drawable/ic_number_list"
+            app:key="random_test_question_count"
+            app:title="Karma Test Soru Sayısı"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:icon="@drawable/ic_notification"
+            app:key="notifications_enabled"
+            app:summary="Güncel gelişmeler ve hatırlatmalar için bildirimler"
+            app:title="Bildirimler" />
+
+        <Preference
+            app:icon="@drawable/ic_delete"
+            app:key="key_clear_results"
+            app:summary="Çözdüğün bütün testlerin sonuçları kalıcı olarak silinir."
+            app:title="Sonuçları Temizle" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Destek">
+
+        <Preference
+            app:icon="@drawable/ic_share"
+            app:key="key_share_the_app"
+            app:summary="Uygulamayı arkadaşlarınızla paylaşın!"
+            app:title="Uygulamayı Paylaş" />
+
+        <Preference
+            app:icon="@drawable/ic_star"
+            app:key="key_rate_the_app"
+            app:summary="Uygulamayı google playde puanlayın!"
+            app:title="Uygulamayı Puanla" />
+
+        <Preference
+            app:icon="@drawable/ic_mail"
+            app:key="key_contact"
+            app:summary="Herhangi bir hata ile karşılaşırsanız çekinmeyin."
+            app:title="Bize Ulaşın" />
+    </PreferenceCategory>
+</PreferenceScreen>
