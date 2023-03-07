@@ -1,6 +1,7 @@
 # Uzman-Ogretmenlik-Sinavi
 
-- An exam question training app for turkish teachers speacial teacher exam.
+- An exam question solving app for teachers.
+- MVVM, Room, retrofit
 
  <img src="https://img.shields.io/badge/api-%2B21-red?style=plastic&logo=android" alt="api-level"> <img src="https://img.shields.io/badge/language-kotlin-blueviolet?style=plastic&logo=kotlin" alt="language">
 
