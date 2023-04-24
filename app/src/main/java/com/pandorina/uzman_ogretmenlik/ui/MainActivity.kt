@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         )
         NetworkConnection(this).observe(this){
             isInternetConnected = it
-            if (!it) { connectionErrorDialog?.show(supportFragmentManager, null) }
+            if (!it) { connectionErrorDialog?.show(supportFragmentManager, "null") }
         }
     }
 
